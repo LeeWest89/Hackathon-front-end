@@ -15,7 +15,7 @@ body {
     height: 300px;
     margin: 0 auto;
     padding: 20px;
-    margin-top: 5px;
+    margin-top: 27px;
     border-radius: 10px;
     background-color: beige;
     overflow: auto;
@@ -33,8 +33,7 @@ body {
 
 .button_container {
     padding: 20px;
-    position: fixed;
-    bottom: 70px;
+    position: static;
     width: calc(100% - 40px);
     display: flex;
     justify-content: space-between;
