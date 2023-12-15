@@ -16,6 +16,8 @@ footer {
     margin-top: 10px;
     margin-left: 50%;
     color: #aad4e5;
+    font-size: 30px;
+    font-family: 'Andale Mono', monospace, 'Luminari', 'Chalkduster', fantasy;
     border: solid 1px #aad4e5;
     transform: translate(-50%);
 }
@@ -32,5 +34,6 @@ footer p {
     right: 0;
     left: 0;
     color:#aad4e5;
+    font-family: 'Andale Mono', monospace, 'Luminari', 'Chalkduster', fantasy;
     display: none;
 }
