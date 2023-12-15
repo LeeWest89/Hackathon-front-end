@@ -57,7 +57,7 @@ body {
 
 .sbutton, .rbutton {
     background-color: beige;
-    border: solid 1px black;
+    border: solid 2px black;
     width: calc(50% - 50px);
     height: 150px;
     border-radius: 10px;
@@ -68,7 +68,6 @@ body {
 
 .sbutton:hover, .rbutton:hover {
     color: #DC143C;
-    border: solid 3px black;
 }
 
 .sbutton::-webkit-scrollbar, .rbutton::-webkit-scrollbar {
