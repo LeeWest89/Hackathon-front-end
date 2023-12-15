@@ -6,6 +6,24 @@ footer {
     bottom: 0;
     border-top: 1px solid #aad4e5;
 }
+
+.startButton {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50%;
+    color: #aad4e5;
+    border: solid 1px #aad4e5;
+    transform: translate(-50%);
+}
+
+.startButton:hover {
+    border: solid 3px #aad4e5;
+}
+
 footer p {
     position: absolute;
     text-align: center;
@@ -14,4 +32,5 @@ footer p {
     right: 0;
     left: 0;
     color:#aad4e5;
+    display: none;
 }
