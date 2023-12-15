@@ -18,6 +18,11 @@ body {
     margin-top: 5px;
     border-radius: 10px;
     background-color: beige;
+    overflow: auto;
+}
+
+.prompt_container::-webkit-scrollbar {
+    display: none;
 }
 
 .prompt {
@@ -33,6 +38,11 @@ body {
     width: calc(100% - 40px);
     display: flex;
     justify-content: space-between;
+    overflow: auto;
+}
+
+.button_container::-webkit-scrollbar {
+    display: none;
 }
 
 .sbutton, .rbutton {
@@ -41,11 +51,14 @@ body {
     height: 150px;
     border-radius: 10px;
     font-family: 'Apple Chancery', 'URW Chancery L', 'Bradley Hand', cursive;
+    overflow: auto;
+}
 
+.sbutton::-webkit-scrollbar, .rbutton::-webkit-scrollbar {
+    display: none;
 }
 
 .button-text {
     text-align: left;
     padding: 10px;
 }
-
