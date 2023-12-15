@@ -15,19 +15,19 @@ body {
     height: 300px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 5px;
     border-radius: 10px;
     background-color: beige;
 }
 
 .prompt {
     font-size: 15px;
-    color: #333;
+    color: black;
     font-family: 'Apple Chancery', 'URW Chancery L', 'Bradley Hand', cursive;
 }
 
 .button_container {
     padding: 20px;
-    background-color: grey;
     position: fixed;
     bottom: 70px;
     width: calc(100% - 40px);
