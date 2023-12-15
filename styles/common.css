@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url("../images/logo.png"); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-image: url("../images/background.png"); /* Replace 'your-image-url.jpg' with the actual image URL */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
